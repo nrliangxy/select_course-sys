@@ -32,4 +32,4 @@ class Manage_center(object):
 class Manage_school(object):
     """school view"""
     def __init__(self):
-        if
+        pass
