@@ -206,6 +206,7 @@ class Manage_teacher(object):
                         getattr(self, user_func)(teacher_name)
                 else:
                     print("\033[31;1m讲师不存在\033[0m")
+                    break
     
     def check_class(self, teacher_name):
         self.school_obj.show_teacher_classinfo(teacher_name)
