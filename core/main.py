@@ -105,6 +105,7 @@ class Manage_school(object):
         else:
             print("\33[31;1m系统错误：班级已经存在\33[0m")
     
+    
     def add_teacher(self):
         teacher_name = input('''\033[34;0m输入要招聘教师的名称：\033[0m''').strip()
         teacher_salary = input('''\033[34;0m输入要招聘教师的薪资：\033[0m''').strip()
